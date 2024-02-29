@@ -1,0 +1,5196 @@
+iframe#webpack-dev-server-client-overlay {
+    display: none !important;
+  }
+// body *{
+//     border: 1px solid red;
+
+// }
+
+.header-one {
+    .konsept {
+        .search {
+            .fa-magnifying-glass {
+                position: relative;
+            }
+
+            form {
+                position: relative;
+            }
+        }
+        .icons {
+
+            .fa-user {
+                display: block;
+                margin: 0 7px;
+
+            }
+
+            .fa-cart-shopping {
+                margin: 0 7px;
+
+            }
+
+            .fa-heart {
+                display: block;
+                margin: 0 7px;
+
+            }
+            button{
+                display: block;
+            }
+
+
+            .menu {
+                display: none;
+                margin: 4px;
+
+                flex-direction: column;
+                justify-content: space-between;
+
+                span {
+                    height: 0.2rem;
+                    width: 100%;
+                    background-color: black;
+                    border-radius: 0.3rem;
+
+                }
+            }
+        }
+        .logo{
+            transform: translateX(40px);
+        }
+    }
+
+    ul {
+        li {
+            .nav-link {
+                color: #1D1D1D;
+
+            }
+
+            .bar-heart {
+                display: none;
+            }
+
+            .bar-user {
+                display: none;
+            }
+
+            .bar-search {
+                display: none;
+            }
+            button{
+           display: none;
+            }
+        }
+
+    }
+
+    .nav-item {
+        .dropdown-menu {
+            border: 1px solid white;
+            min-width: 13rem !important;
+
+            .dropdown-item {
+                color: #8b8b8b;
+                font-family: cursive;
+
+            }
+
+        }
+
+    }
+}
+.second-header{
+    top: 0;
+   .collapse{
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .open{
+        li{
+            form{
+                display: none;
+              
+            }
+            .modal{
+                .modal-backdrop{
+                    z-index: 0 !important;
+                }
+
+            }
+        }
+        
+    }
+   }
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li {
+        list-style: none;
+
+    }
+
+}
+
+.footer {
+    background-color: #f4f2f2;
+    padding: 5px;
+
+    footer {
+        h5 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+            font-size: 18px;
+        }
+
+        ul {
+            li {
+                a {
+                    color: #8b8b8b;
+                    font-family: Open Sans;
+
+                    &:hover {
+                        color: #bdbcbc;
+                    }
+
+                    i {
+                        border: 1px solid transparent;
+                        border-radius: 50%;
+                        transition: border 1s ease;
+
+
+                        &:hover {
+                            border: 1px solid black;
+                            color: black;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+.visa {
+    .list-unstyled {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: r;
+}
+
+.cards {
+    h5 {
+        font-family: cursive;
+        color: #8b8b8b;
+        font-size: 15px;
+    }
+
+    h3 {
+        font-family: Josefin Sans;
+    }
+}
+
+.cards {
+    .konsept-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .slider-card{
+        display: none;
+    }
+}
+
+.col {
+
+    position: relative;
+
+    .card {
+        border: 3px solid white;
+        width: 230px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        transition: 1s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        .card-body {
+            .card-title {
+                font-weight: 500;
+                font-size: 14px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            .card-text {
+                font-family: EB Garamond;
+
+            }
+
+            .card-style {
+                color: #8b8b8b;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 300;
+            }
+
+        }
+
+    }
+
+    .hover-icon {
+        position: absolute;
+        top: 20px;
+        opacity: 1;
+    }
+
+    .add-cart {
+        left: 74px;
+        position: absolute;
+        top: 145px;
+        opacity: 1;
+
+        a {
+            color: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 17px;
+        }
+
+    }
+
+}
+
+.secone {
+    .carousel {
+
+        .carousel-inner {
+            .carousel-item {
+                background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/03/Home1_rev1.jpg');
+                width: 100%;
+                height: 658px;
+                background-size: cover;
+
+                .home {
+
+                    p {
+                        font-family: cursive;
+                        font-size: 50px;
+
+                    }
+
+                    h1 {
+                        font-family: Josefin Sans;
+                        font-size: 50px;
+                    }
+                }
+
+                .button {
+                    .btn-konsept {
+                        border-radius: 1px;
+                        font-family: cursive;
+
+                    }
+                }
+            }
+
+            #carousel-two {
+                background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/03/Home1_section4_video.jpg');
+                width: 100%;
+                height: 658px;
+                background-size: cover;
+
+                .home {
+
+                    p {
+                        font-family: cursive;
+                        font-size: 50px;
+
+                    }
+
+                    h1 {
+                        font-family: Josefin Sans;
+                        font-size: 50px;
+                    }
+                }
+
+                button {
+                    border-radius: 1px;
+                    font-family: cursive;
+                }
+            }
+
+            #carousel-three {
+                background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/05/Home1_rev3.jpg');
+                width: 100%;
+                height: 658px;
+                background-size: cover;
+
+                .home {
+                    p {
+                        font-family: cursive;
+                        font-size: 50px;
+                    }
+
+                    h1 {
+                        font-family: Josefin Sans;
+                        font-size: 50px;
+                    }
+                }
+
+                button {
+                    border-radius: 1px;
+                    font-family: cursive;
+                }
+
+            }
+
+        }
+
+    }
+}
+
+.sectwo {
+    padding: 15px;
+
+    .sec-two {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .ceramics-blog {
+            width: 610px;
+            height: 375px;
+            background-color: #dfe8ed;
+            overflow: hidden;
+            .ceramic-blog {
+                width: 610px;
+                height: 375px;
+                background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/05/Home1_section1.jpg');
+                background-position: center;
+                background-size: cover;
+                transition: transform 0.3s ease;
+
+                &:hover {
+                    transform: translateX(12px);
+                }
+
+                .ceramic-text {
+                    transform: translateY(20px);
+
+                    p {
+                        font-size: 19px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-family: cursive;
+                        font-size: 18px;
+                        display: inline-block;
+                        position: relative;
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            width: 100%;
+                            transform: scaleX(0);
+                            height: 1.5px;
+                            bottom: 0;
+                            left: 0;
+                            background-color: #000000;
+                            transform-origin: bottom right;
+                            transition: transform 0.25s ease-out;
+                        }
+
+                        &:hover::after {
+                            transform: scaleX(1);
+                            transform-origin: bottom left;
+                        }
+
+
+                    }
+
+                    .sale {
+                        transform: translateY(190px);
+                        font-family: cursive;
+                        font-size: 30px;
+
+                    }
+                }
+            }
+
+
+
+        }
+    }
+
+    .card-carousel {
+        border: 3px solid white;
+        width: 230px;
+        img{
+            width: 466px;
+        }
+
+        .card-body-carousel {
+            width: 436px;
+            .card-title {
+                font-weight: 500;
+                font-size: 14px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            .card-text {
+                font-family: EB Garamond;
+                margin-right: 10px;
+
+            }
+
+            .card-style {
+                color: #8b8b8b;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 300;
+            }
+
+        }
+
+    }
+
+    .ceramics-blog-two {
+        width: 610px;
+        height: 375px;
+        overflow: hidden;
+        background-color: #f8eee5;
+
+        .ceramic-blog-two {
+            width: 610px;
+            height: 375px;
+            background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/03/Home1_section1-3.jpg');
+            background-position: center;
+            background-size: cover;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: translateX(12px);
+            }
+
+            .ceramic-text {
+                transform: translateY(20px);
+
+                p {
+                    font-size: 19px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: cursive;
+                    font-size: 18px;
+                    display: inline-block;
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        transform: scaleX(0);
+                        height: 1.5px;
+                        bottom: 0;
+                        left: 0;
+                        background-color: #000000;
+                        transform-origin: bottom right;
+                        transition: transform 0.25s ease-out;
+                    }
+
+                    &:hover::after {
+                        transform: scaleX(1);
+                        transform-origin: bottom left;
+                    }
+                }
+
+                .sale {
+                    transform: translateY(190px);
+                    font-family: cursive;
+                    font-size: 30px;
+
+                }
+            }
+
+        }
+
+
+    }
+}
+
+
+
+.mySwiper {
+    width: 468px;
+    height: 100%;
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    .swiper-button-prev {
+        display: none;
+    }
+
+    .swiper-button-next {
+        display: none;
+    }
+
+}
+
+.mySwiper-two {
+    width: 468px;
+    height: 100%;
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    .swiper-button-prev {
+        display: none;
+    }
+
+    .swiper-button-next {
+        display: none;
+    }
+}
+
+
+// .swiper-twp{
+//     .swiper {
+//         width: 600px;
+//         height: 100%;
+
+//      }
+
+// }
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.secsix {
+    background-color: #9DB97B;
+    width: auto;
+}
+
+.swiperfour {
+    width: 100%;
+    height: 359px;
+
+    .swiper-pagination-bullet {
+        display: none;
+    }
+}
+
+.online-store {
+    width: 100%;
+    background-size: cover;
+    height: 813px;
+    background-position: center;
+    background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/03/Home1_section7_bg.png');
+
+    .online-text {
+        width: 100%;
+        height: 300px;
+        align-items: center;
+        transform: translateY(150px);
+
+        p {
+            color: #8b8b8b;
+            font-family: cursive;
+            font-size: 18px;
+        }
+
+        h3 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+    }
+}
+
+.free-shipping {
+    width: 100%;
+    height: 90px;
+    background-color: #BDCED3;
+    display: flex;
+    align-items: center;
+    font-family: the gwatymey;
+}
+
+.clients {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 105px 0px 55px 0px;
+
+}
+
+.newswiper {
+    width: 100%;
+    height: 200px;
+
+}
+
+.secseven {
+    .container {
+        h5 {
+            font-family: cursive;
+            color: #8b8b8b;
+            font-size: 18px;
+
+        }
+
+        h3 {
+            font-family: Josefin Sans;
+            font-size: 35px;
+        }
+
+        .feature {
+            .feature-icon {
+                overflow: hidden;
+                position: relative;
+
+
+                img {
+                    width: 100%;
+                    overflow: hidden;
+                    transition: transform 0.3s ease;
+                    transform: translateX(-6px);
+
+
+                    &:hover {
+                        transform: translateX(6px);
+                    }
+                }
+            }
+
+            .plates {
+                font-family: cursive;
+                color: #8b8b8b;
+                font-size: 17px;
+                font-weight: 200;
+            }
+
+            h3 {
+                font-size: 20px;
+                color: #1D1D1D;
+                font-family: sans-serif;
+            }
+
+            .lorem {
+                color: #8b8b8b;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 200;
+
+            }
+
+            .read-more {
+                color: black;
+                font-family: cursive;
+                font-size: 18px;
+
+            }
+        }
+
+    }
+}
+
+.container {
+    .secfour {
+        width: 100%;
+        background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/03/Home1_section4_video.jpg');
+        height: 479px;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .play {
+
+            width: 200px;
+            height: 200px;
+            background-color: transparent;
+            border-radius: 50%;
+            border: 1px solid rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                color: white;
+                text-decoration: none;
+                font-family: cursive;
+                font-size: 18px;
+            }
+        }
+
+    }
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 420px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/About-us_title.jpg');
+
+    h1 {
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+}
+
+.aboutme {
+    width: 100%;
+    height: 648px;
+    max-height: none;
+    background-color: rgb(236, 241, 244);
+
+    .nina {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .text-me {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .text-name {
+                text-align: start;
+
+                h3 {
+                    font-family: cursive;
+                    transform: translateX(-70px);
+
+                }
+
+                h1 {
+                    font-family: Open Sans;
+                    transform: translateX(-70px);
+
+                }
+
+                p {
+                    color: #8b8b8b;
+                    font-size: 17px;
+                }
+
+                i {
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                    transition: border 1s ease;
+
+
+                    &:hover {
+                        border: 1px solid black;
+                        color: black;
+                    }
+                }
+            }
+
+        }
+
+        .photo-me {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .nina-one {
+                width: 480px;
+                height: 336px;
+                transform: translateX(300px) translateY(-30px);
+            }
+
+            .nina-two {
+                width: 150px;
+                height: 207px;
+                transform: translateX(-50px) translateY(-120px);
+            }
+
+            .nina-three {
+                width: 220px;
+                height: 220px;
+                transform: translateX(-500px) translateY(80px);
+            }
+
+            .nina-four {
+                width: 300px;
+                height: 383px;
+                position: relative;
+                top: 80px;
+                right: 20px;
+
+            }
+
+            .nina-five {
+                width: 185px;
+                height: 254px;
+                transform: translateX(-305px) translateY(100px);
+                position: absolute;
+            }
+
+        }
+    }
+}
+
+.ourteam {
+    .team {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/05/Team.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 420px;
+        position: relative;
+
+        h1 {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            letter-spacing: 0.5rem;
+        }
+    }
+
+    .team-bg {
+        background-color: #fcf6e5;
+
+    }
+}
+
+.team-card {
+    width: 293px;
+    transition: 0.3s;
+    border-radius: 15px;
+    transition: 0.5s;
+
+    img {
+        border-radius: 15px;
+    }
+
+    .team-media {
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
+    }
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        transform: scale(1.05);
+
+    }
+    .card-body {
+        .icon-media {
+            a {
+                i {
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                    transition: border 1s ease;
+                    margin: 3px;
+
+
+                    &:hover {
+                        border: 1px solid black;
+                        color: black;
+                    }
+                }
+
+            }
+        }
+
+        h5 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        p {
+            font-family: cursive;
+        }
+    }
+
+}
+
+.ourclients {
+    .brand {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/03/Clients_title.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 420px;
+
+        h1 {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            letter-spacing: 0.5rem;
+
+
+        }
+
+    }
+
+}
+
+// .secfive{
+//     width: 100%;
+//     display: flex;
+//     align-items: center;
+
+// .animation-circle{
+//     width: 120px;
+//     height: 120px;
+//     border-radius: 50%;
+//     background-color: transparent;
+//     border: 1px solid rgb(129, 126, 126);
+//     animation: moveUpDown 5s linear infinite;
+//     @keyframes moveUpDown {
+//         0%, 100% {
+//             transform: translateY(0);
+//         }
+//         50% {
+//             transform: translateY(-10px);
+//         }
+
+//     }
+
+// }
+// }
+// .swiperfive{
+//   width: 100%;
+// }
+.secthree {
+    width: 100%;
+    height: 648px;
+    max-height: none;
+    background-color: #9DB97B;
+
+    .inspiration {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .text-me {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .text-name {
+                text-align: start;
+
+                h3 {
+                    font-family: cursive;
+                    transform: translateX(-70px);
+
+                }
+
+                h1 {
+                    font-family: Open Sans;
+                    transform: translateX(-70px);
+
+                }
+
+                p {
+                    color: #8b8b8b;
+                    font-size: 17px;
+                }
+
+                i {
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                    transition: border 1s ease;
+
+
+                    &:hover {
+                        border: 1px solid black;
+                        color: black;
+                    }
+                }
+            }
+
+        }
+
+        .photo-me {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .nina-one {
+                width: 480px;
+                height: 336px;
+                transform: translateX(300px) translateY(-30px);
+            }
+
+            .nina-two {
+                width: 150px;
+                height: 207px;
+                transform: translateX(-50px) translateY(-120px);
+            }
+
+            .nina-three {
+                width: 220px;
+                height: 220px;
+                transform: translateX(-500px) translateY(80px);
+            }
+
+            .nina-four {
+                width: 300px;
+                height: 383px;
+                position: relative;
+                top: 80px;
+                right: 20px;
+            }
+
+            .nina-five {
+                width: 185px;
+                height: 254px;
+                transform: translateX(-305px) translateY(100px);
+                position: absolute;
+            }
+        }
+    }
+}
+
+.pricing-plans {
+    .plans {
+        width: 100%;
+        height: 420px;
+        background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/05/Pricing_plan-1.jpg');
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 0.5rem;
+        }
+
+    }
+
+    .pricing {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .basic {
+            width: 380px;
+            height: 550px;
+            border: 1px solid #f4f2f3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h4 {
+                font-family: "Josefin Sans";
+            }
+
+            p {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: #8B8B8B;
+
+            }
+
+            button {
+                border-radius: 1px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: cursive;
+                    font-size: 15px;
+                }
+
+            }
+        }
+
+        .premium {
+            width: 380px;
+            height: 550px;
+            background-color: #f4f2f3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h4 {
+                font-family: "Josefin Sans";
+            }
+
+            p {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: #8B8B8B;
+
+            }
+
+            button {
+                border-radius: 1px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: cursive;
+                    font-size: 15px;
+                }
+
+            }
+        }
+
+        .business {
+            width: 380px;
+            height: 550px;
+            border: 1px solid #f4f2f3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h4 {
+                font-family: "Josefin Sans";
+            }
+
+            p {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: #8B8B8B;
+
+            }
+
+            button {
+                border-radius: 1px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: cursive;
+                    font-size: 15px;
+                }
+
+            }
+        }
+
+    }
+}
+
+.getintouch {
+    .map {
+        width: 100%;
+
+        iframe {
+            width: 100%;
+            height: 420px;
+        }
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        .question {
+            width: 50%;
+
+            p {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: #8B8B8B;
+                font-weight: 300;
+            }
+
+            h2 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            .office {
+                h5 {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 17px;
+                }
+
+                .nav {
+                    .nav-item {
+                        .nav-link {
+                            color: #8B8B8B;
+                        }
+                    }
+                }
+            }
+        }
+
+        .send-question {
+            form {
+                input {
+                    width: 335px;
+                    height: 48px;
+                    border-radius: 0px;
+                }
+
+                .comment {
+                    textarea {
+                        width: 686px;
+                        height: 240px;
+                        border-radius: 0px;
+                    }
+                }
+
+            }
+
+            button {
+                width: 150px;
+                height: 48px;
+                border-radius: 0px;
+                margin-right: 15px;
+            }
+        }
+
+    }
+}
+
+.number {
+    padding-bottom: 15px;
+
+    .number-one {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            border: 1px solid rgb(176, 167, 167);
+        }
+
+        a {
+            color: rgb(118, 116, 116);
+            font-size: 27px;
+            text-decoration: none;
+            font-family: cursive;
+        }
+    }
+
+    .number-two {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            border: 1px solid rgb(176, 167, 167);
+        }
+
+        a {
+            color: rgb(118, 116, 116);
+            font-size: 27px;
+            text-decoration: none;
+            font-family: cursive;
+        }
+    }
+
+    .number-three {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            border: 1px solid rgb(176, 167, 167);
+        }
+
+        a {
+            color: rgb(118, 116, 116);
+            font-size: 25px;
+            text-decoration: none;
+            font-family: cursive;
+        }
+    }
+
+    .number-four {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            border: 1px solid rgb(176, 167, 167);
+        }
+
+        a {
+            color: rgb(118, 116, 116);
+            font-size: 25px;
+            text-decoration: none;
+            font-family: cursive;
+        }
+    }
+}
+
+.store {
+    .category {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.details-page {
+    .sort {
+        width: 100%;
+        height: 60px;
+        background-color: #f4f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            font-family: 'Courier New', Courier, monospace;
+            color: #8B8B8B;
+            font-size: 17px;
+
+        }
+    }
+
+    .read-more {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .detail-text {
+            width: 50%;
+
+            .detail-title {
+                padding-bottom: 6rem;
+
+                h1 {
+                    color: #1D1D1D;
+                    font-family: Josefin Sans;
+                }
+
+                .detail-price {
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+
+                .detail-star {
+                    i {
+                        font-size: 18px;
+                        letter-spacing: .5em;
+                        color: #3d3b3b;
+
+                    }
+                }
+
+                .detail-des {
+                    font-family: 'Courier New', Courier, monospace;
+                    color: #9b9999;
+                    font-size: 18px;
+                }
+
+                .detail-btn {
+                    button {
+                        border-radius: 0px;
+
+                        a {
+                            text-decoration: none;
+                            color: #1D1D1D;
+                            font-family: initial;
+
+
+                        }
+                    }
+
+                }
+                .detail-type {
+                    font-family: Josefin Sans;
+                    font-size: 15px;
+
+                    span {
+                        font-family: cursive;
+
+                    }
+                }
+
+
+            }
+
+        }
+
+        .detail-image {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .detail-image-one {
+                .detail-img {
+                    width: 118.48px;
+                    height: 160.14px;
+
+                    img {
+                        width: 118px;
+                        height: 160px;
+                    }
+
+                    .modal {
+                        width: 100vw;
+                        height: 100vh;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        position: fixed;
+
+                        .overlay {
+                            width: 100vw;
+                            height: 100vh;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            position: fixed;
+                            background-color: rgb(49, 49, 49, 0.8);
+
+                        }
+
+                        .modal-content {
+                            position: absolute;
+                            top: 40%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            line-height: 1.4;
+                            background: #f1f1f1;
+                            padding: 14px 28px;
+                            border-radius: 3px;
+                            max-width: 600px;
+                            min-width: 300px;
+
+                            .close-modal {
+                                position: absolute;
+                                top: 10px;
+                                right: 10px;
+                                padding: 5px 7px;
+                            }
+
+                        }
+                    }
+                }
+
+            }
+
+            .detail-image-two {
+                img {
+                    width: 500px;
+                    height: 665px;
+
+                }
+            }
+
+        }
+
+    }
+}
+
+.account {
+    .myaccount {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/account_.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 420px;
+
+        h1 {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            letter-spacing: 0.5rem;
+        }
+    }
+
+    form {
+        h3 {
+            font-family: l;
+        }
+
+        button {
+            border-radius: 0px;
+            width: 120px;
+
+            a {
+                text-decoration: none;
+                font-family: cursive;
+                color: black;
+                font-size: 17px;
+
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.cart-page {
+    .empty {
+        height: 80px;
+        border: 1px solid rgb(166, 165, 165);
+        display: flex;
+        align-items: center;
+    }
+
+    .return-btn {
+        width: 160px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: cursive;
+
+        }
+
+    }
+}
+
+table {
+    thead {
+        th {
+            font-weight: 500;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    tbody {
+        td {
+            .item-name {
+                width: 100px;
+                height: 140px;
+
+            }
+        }
+
+        th {
+            .remove {
+                width: 35px;
+                height: 140px;
+            }
+        }
+
+    }
+}
+
+.container {
+    .total {
+        ul {
+            li {
+                font-family: 'Courier New', Courier, monospace;
+            }
+        }
+    }
+}
+
+.home-cart {
+    width: 100%;
+    height: 60px;
+    background-color: #f4f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-family: 'Courier New', Courier, monospace;
+        color: #8B8B8B;
+        font-size: 17px;
+    }
+}
+
+.fagpage {
+    .fag {
+        width: 100%;
+        height: 420px;
+        background-image: url("https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/Faq.jpg");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            letter-spacing: 0.5rem;
+        }
+    }
+
+    .save-fag {
+        display: flex;
+        flex-direction: row;
+
+        p {
+            font-family: cursive;
+            font-size: 17px;
+            color: #8B8B8B;
+
+        }
+
+        h5 {
+            letter-spacing: 0.2rem;
+            font-weight: 400;
+        }
+
+        .nav {
+            .nav-item {
+                .nav-link {
+                    color: #8B8B8B;
+                    font-weight: 300;
+                }
+            }
+        }
+
+    }
+
+}
+
+.shopnow {
+    .shop {
+        width: 100%;
+        height: 650px;
+
+        .swiper {
+            width: 100%;
+            height: 650px;
+        }
+
+        .shopnow-one {
+            background-color: rgb(234, 240, 244);
+
+            .shop-text {
+                h1 {
+                    letter-spacing: 0.5rem;
+                    font-size: 50px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+
+                button:nth-child(1) {
+                    border-radius: 1px;
+                    background-color: black;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-family: cursive;
+                    }
+                }
+
+                button:nth-child(2) {
+                    border-radius: 1px;
+                    border: 0.5px solid black;
+
+                    a {
+                        text-decoration: none;
+                        color: rgb(0, 0, 0);
+                        font-family: cursive;
+                    }
+
+
+                }
+
+            }
+
+            .shop-photo-one {
+                img:nth-child(1) {
+                    transform: translateY(-150px);
+                    height: 650px;
+                }
+
+                img:nth-child(2) {
+                    height: 650px;
+                    transform: translateY(-100px);
+
+                }
+
+            }
+
+        }
+
+        .shopnow-two {
+            background-color: #f9f1dd;
+
+            .shop-text {
+                h1 {
+                    letter-spacing: 0.5rem;
+                    font-size: 50px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+
+                button:nth-child(1) {
+                    border-radius: 1px;
+                    background-color: black;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-family: cursive;
+                    }
+                }
+
+                button:nth-child(2) {
+                    border-radius: 1px;
+                    border: 0.5px solid black;
+
+                    a {
+                        text-decoration: none;
+                        color: rgb(0, 0, 0);
+                        font-family: cursive;
+                    }
+                }
+            }
+
+            .shop-photo-two {
+                img {
+                    height: 750px;
+                    transform: translateY(90px);
+
+                }
+            }
+        }
+
+        .shopnow-three {
+            background-color: rgb(234, 240, 244);
+
+            .shop-text {
+                h1 {
+                    letter-spacing: 0.5rem;
+                    font-size: 50px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+
+                button:nth-child(1) {
+                    border-radius: 1px;
+                    background-color: black;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-family: cursive;
+                    }
+                }
+
+                button:nth-child(2) {
+                    border-radius: 1px;
+                    border: 0.5px solid black;
+
+                    a {
+                        text-decoration: none;
+                        color: rgb(0, 0, 0);
+                        font-family: cursive;
+                    }
+                }
+            }
+
+            .shop-photo-three {
+                img {
+                    height: 830px;
+                    transform: translateY(85px);
+                }
+            }
+        }
+    }
+
+    .mix-product {
+        width: 100%;
+
+        .total-one {
+            display: flex;
+            flex-direction: row;
+
+            .first {
+                width: 50%;
+                height: 735px;
+                background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/masonry_01-1.jpg');
+                background-position: center;
+                background-size: cover;
+                overflow: hidden;
+            }
+
+            .second {
+                width: 50%;
+
+                .clock {
+                    width: 100%;
+                    height: 367.5px;
+                    background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/masonry_02.jpg');
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                .lamp {
+                    width: 100%;
+                    height: 367.5px;
+                    background-position: center;
+                    background-size: cover;
+                    background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/masonry_03.jpg');
+                }
+            }
+
+        }
+
+        .total-two {
+            display: flex;
+            flex-direction: row;
+
+            .first {
+                width: 50%;
+                height: 735px;
+                background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/masonry_05.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+
+            .second {
+                width: 50%;
+
+                .plate {
+                    width: 100%;
+                    height: 367.5px;
+                    background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/masonry_04.jpg');
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                .pot {
+                    width: 100%;
+                    height: 367.5px;
+                    background-position: center;
+                    background-size: cover;
+                    background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/masonry_06.jpg');
+                }
+            }
+
+        }
+
+        .total-three {
+            display: flex;
+            flex-direction: row;
+
+            .first {
+                width: 50%;
+                height: 735px;
+                background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/masonry_07.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+
+            .second {
+                width: 50%;
+
+                .light {
+                    width: 100%;
+                    height: 367.5px;
+                    background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/masonry_08.jpg');
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                .basket {
+                    width: 100%;
+                    height: 367.5px;
+                    background-position: center;
+                    background-size: cover;
+                    background-image: url('https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/masonry_09.jpg');
+                }
+            }
+        }
+    }
+}
+
+.get-konsept {
+    height: 490vh;
+
+    .old-brand {
+        width: 100%;
+        height: 60px;
+        background-color: #f4f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+
+    .about-konsept {
+        display: flex;
+        flex-direction: row;
+
+        .get-swiper {
+            height: 620.95px;
+
+            .swiper {
+                width: 100%;
+            }
+
+            .date {
+                h3 {
+                    letter-spacing: 0.3rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                p {
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-size: 20px;
+                    color: #8B8B8B;
+                }
+
+                .circle {
+                    width: 180px;
+                    height: 100px;
+                    background-color: #dbeaf2;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    animation: moveUpDown 3s linear infinite;
+
+                    @keyframes moveUpDown {
+
+                        0%,
+                        100% {
+                            transform: translateY(0);
+                        }
+
+                        50% {
+                            transform: translateY(-20px);
+                        }
+                    }
+
+                    p {
+                        font-size: 60px;
+                        color: #000000;
+                        transform: translateY(20px);
+                    }
+                }
+
+                .for-konsept {
+                    p {
+                        animation: moveUp 3s linear infinite;
+
+                        @keyframes moveUp {
+
+                            0%,
+                            100% {
+                                transform: translateY(0);
+                            }
+
+                            50% {
+                                transform: translateY(10px);
+                            }
+                        }
+                    }
+                }
+
+                .design {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .design-photo {
+                        transition: 1s;
+
+                        &:hover {
+                            transform: scale(1.05);
+                        }
+
+                    }
+
+                }
+
+                p {
+                    a {
+                        i {
+                            border-radius: 50%;
+                            transition: border 1s ease;
+                            color: rgb(57, 53, 53);
+
+                            &:hover {
+                                border: 1px solid black;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+
+                .sara {
+                    width: 100%;
+                    height: 285px;
+                    background-color: #f7f5f5;
+                    background-image: url('https://konsept.qodeinteractive.com/wp-content/plugins/konsept-core/assets/img/author-bg.png');
+
+                    .about-sara {
+                        display: flex;
+                    }
+
+                    .sara-text {
+                        margin-left: 10px;
+                    }
+                }
+
+                .comments {
+                    .user-comment {
+                        background-color: #fcf6e5;
+                        border: 1px solid #e6e0cf;
+                        border-radius: 10px;
+                        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+                    }
+                }
+
+                .related-cards {
+                    display: flex;
+                }
+
+            }
+        }
+
+        .right-side {
+            margin-left: 20px;
+
+            .sara-second-text {
+                h5 {
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+            }
+
+            h5 {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            p {
+                color: #8B8B8B;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            .list-group {
+                .list-group-item {
+                    color: #8B8B8B;
+                    font-family: cursive;
+                }
+
+            }
+        }
+    }
+}
+
+.post-card {
+    width: 309px;
+
+    .swiper {
+        width: 309px;
+        height: 200.08px;
+    }
+
+    .card-body {
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: cursive;
+            font-size: 19px;
+            display: inline-block;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                height: 1.5px;
+                bottom: 0;
+                left: 0;
+                background-color: #000000;
+                transform-origin: bottom right;
+                transition: transform 0.25s ease-out;
+            }
+
+            &:hover::after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+            }
+        }
+
+    }
+}
+
+.portfolio {
+    background-color: #fffbf0;
+
+    .portfolio-head {
+        width: 100%;
+        height: 60px;
+        background-color: #f4f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-family: 'Courier New', Courier, monospace;
+            color: #8B8B8B;
+        }
+    }
+
+    .sort {
+        ul {
+            .nav-item {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                display: inline-block;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 1.5px;
+                    bottom: 0;
+                    left: 0;
+                    background-color: #000000;
+                    transform-origin: bottom right;
+                    transition: transform 0.25s ease-out;
+                }
+
+                &:hover::after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
+            }
+        }
+    }
+}
+
+.portfolio-card {
+    img{
+        width:407px ;
+        height: 500px;
+    }
+    
+    .portfolio-text {
+        position: absolute;
+        background-color: #fffbf0;
+        opacity: 0;
+        transition: 1s;
+
+        h6 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            font-family: cursive;
+            color: #8B8B8B;
+        }
+    }
+
+    &:hover .portfolio-text {
+        opacity: 1;
+    }
+
+    &:hover img {
+        transform: scale(0.55);
+    }
+
+    img {
+        transition: 1s;
+    }
+}
+.log-in{
+    background:  linear-gradient(45deg,#FC466B,#3F5EFB);
+    height: 100vh;
+    font-family:"Monotserrat",sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        transform: translateY(-50px) !important;
+        position: absolute;
+        
+      
+        form{
+            background: rgba(255,255,255,0.3);
+            padding: 3rem;
+            // height: 320px;
+            border-radius: 20px;
+            border-left: 1px solid  rgba(255,255,255,0.3);
+            border-top: 1px solid  rgba(255,255,255,0.3) ;
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+            text-align: center;
+            transition: all 0.2s ease-in-out;
+            h1{
+                font-weight: 500;
+                color: #fff;
+                opacity: 0.7;
+                font-size: 1.4rem;
+                margin-top: 0;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            }
+            input{
+                background: transparent;
+                width: 300px;
+                padding: 1em;
+                margin-bottom: 2em;
+                border: none;
+                border-left: 1px solid  rgba(255,255,255,0.3);
+                border-top: 1px solid  rgba(255,255,255,0.3);
+                border-radius: 5000px;
+                box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+                -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
+                font-family:"Monotserrat",sans-serif ;
+                font-weight: 500;
+                transition: all 0.2s ease-in-out;
+                text-shadow: 2px 2px 4px  rgba(0,0,0,0.2);
+                &:hover{
+                    background: rgba(255,255,255,0.1);
+                    box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+                }
+              
+            }
+            input[type=email]:focus{
+                background: rgba(255,255,255,0.1);
+                box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+
+            }
+            input[type=password]:focus{
+                background: rgba(255,255,255,0.1);
+                box-shadow: 4px 4px 60px 8px rgba(0,0,0,0.2);
+                
+            }
+            
+            button{
+                margin-top: 10px;
+                width: 150px;
+                font-size: 1rem; 
+                &:hover{
+                    cursor: pointer;
+                }
+            
+            }
+            &:hover{
+                margin: 4px;
+            }
+        }
+      .drops{
+        .drop{
+            background:rgba(255,255,255,0.2);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            border-left:1px solid rgba(255,255,255,0.2);
+            border-top:1px solid rgba(255,255,255,0.2);
+            box-shadow: 10px 10px 60px -8px rgba(0,0,0,0.2);
+            position: absolute;
+            transition: all 0.2s ease;
+        }
+        .drop-one{
+            height: 80px;
+            width: 80px;
+            top: -20px;
+            left: 140px;
+            z-index: -1;
+        }
+        .drop-two{
+            height: 80px;
+            width: 80px;
+            bottom: -30px;
+            right: 140px;
+
+        }
+        .drop-three{
+            width: 100px;
+            height: 100px;
+            bottom: 120px;
+            right: 130px;
+            z-index: -1;
+            
+        }
+        .drop-four{
+            height: 120px;
+            width: 120px;
+            top: -50px;
+            right: 100px;
+        }
+        .drop-five{
+            height: 60px;
+            width: 60px;
+            bottom: 170px;
+            left: 190px;
+            z-index: -1;
+            
+            
+        }
+      }
+    }
+}
+.checkout{
+    background:  linear-gradient(45deg,#FC466B,#3F5EFB);
+
+}
+.payment{
+    background:  linear-gradient(45deg,#FC466B,#3F5EFB);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    form{
+        width: 400px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: rgba(255,255,255,0.3);
+        border-radius: 20px;
+        border-left: 1px solid  rgba(255,255,255,0.3);
+        border-top: 1px solid  rgba(255,255,255,0.3) ;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+        transition: all 0.2s ease-in-out;
+        
+    }
+}
+
+
+
+// --------------darkmood--------------
+.dark {
+    background-color: black;
+    .header-one *{
+        background-color: rgb(0, 0, 0) !important;
+        background: rgb(0, 0, 0) !important;
+        color:rgb(255, 255, 255) !important;
+        ::placeholder {
+            color: rgb(255, 255, 255) ;
+            opacity: 1; /* Firefox */
+          }
+    }
+    .secone{
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                 &::before{
+                    content: "";
+                    background: rgba(0, 0, 0, 0.5); /* Arka plan rengini ayarlamak için buradaki renk kodunu düzenleyin */
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    z-index: -1;
+                 }
+                }
+
+            }
+        }
+    }
+    .sectwo{
+        .sec-two{
+            .ceramics-blog{
+                background-color: rgba(0, 0, 0, 0.5); 
+                .ceramic-blog{
+                    transform: translateX(2px);
+                    &:hover{
+                        transform: translateX(12px);
+                    }
+                    &::before{
+                        content: "";
+                        background: rgba(0, 0, 0, 0.5); /* Arka plan rengini ayarlamak için buradaki renk kodunu düzenleyin */
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        z-index: -1;
+                     }
+                   .ceramic-text{
+                    color: white;
+                    .shop{
+                        color: white;
+                    }
+                   }
+
+                }
+            }
+            .ceramics-blog-two{
+                background-color: rgba(0, 0, 0, 0.5); 
+                .ceramic-blog-two{
+                    transform: translateX(2px);
+                    &:hover{
+                        transform: translateX(12px);
+                    }
+                    &::before{
+                        content: "";
+                        background: rgba(0, 0, 0, 0.5); /* Arka plan rengini ayarlamak için buradaki renk kodunu düzenleyin */
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        z-index: -1;
+                     }
+                     .ceramic-text{
+                        color: white;
+                        .shop{
+                            color: white;
+                        }
+                       }
+                }
+
+            }
+        }
+    }
+    .sec-two-cards{
+        .card-body-carousel{
+            background-color: black !important;
+            width: 476px;
+            margin-left: 0;
+            transform: translateX(-10px) translateY(3px);
+          
+          .card-text{
+            margin-top: 5px;
+            color: white;
+          }
+          
+        }    
+    }
+    .secthree{
+    background-color: #566741;
+      
+    }
+    .cards{
+        .container{
+            h3{
+                color: white;
+            }
+        }
+    }
+    .card{
+        border: 2px solid black;
+        .card-body{
+            background-color: black;
+            .card-title{
+                color: white;
+            }
+            .card-text{
+                color: white;
+            }
+        }
+    }
+    .secsix{
+        background-color: #566741;
+    }
+    .secseven{
+        .container{
+            h3{
+                color: white;
+            }
+            .feature{
+                .seven-text{
+                    color: white;
+                }
+                .read-more{
+                    color: white;
+                }
+            }
+        }
+
+    }
+    .footer{
+        background-color: #cbc7c7;
+    }
+    .aboutme{
+       background-color: rgb(168, 177, 183);
+       .text-me{
+        .text-name {
+            h1{
+                color: white !important;
+            }
+        }
+      
+       }
+    }
+    .ourteam{
+        .team{
+            &::before{
+                content: "";
+                background: rgba(0, 0, 0, 0.5); /* Arka plan rengini ayarlamak için buradaki renk kodunu düzenleyin */
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: -1;
+             }
+        }
+        .team-bg{
+            background-color: #cbbea0;
+        }
+    }
+    .pricing-plans{
+          h1{
+            color: white;
+          }
+          .pricing{
+            .basic{
+                h4{
+                    color: white !important;
+                }
+                h3{
+                    color: white !important; 
+                }
+                button{
+                    a{
+                        color: white;
+                    }
+                }
+            }
+            .business{
+                h4{
+                    color: white !important;
+                }
+                h3{
+                    color: white !important; 
+                }
+                button{
+                    a{
+                        color: white;
+                    }
+                }
+            }
+          }
+        }
+        .fagpage{
+            .save-fag{
+                h5{
+                    color: white;
+                }
+                .customer-service{
+                    ul{
+                        li{
+                          a{
+                            color: #bdbcbc !important;
+                          }
+                        }
+                    }
+                }
+              .accordion{
+                background-color: black !important;
+                .accordion-item{
+                    background-color: black !important;
+                }
+              }
+            }
+        }
+        .container{
+            table *{
+                background-color: rgb(0, 0, 0) !important;
+                background: rgb(0, 0, 0) !important;
+                color:rgb(255, 255, 255) !important;
+            
+                .checkout-btn{
+                    background-color: #ffc107 !important;
+                }
+                .delete-btn{
+                    background-color: #dc3545 !important;
+                }
+                
+
+            }
+            .total *{
+                background-color: rgb(0, 0, 0) !important;
+                background: rgb(0, 0, 0) !important;
+                color:rgb(255, 255, 255) !important;
+                border-color:  rgb(111, 110, 110) !important;
+                .checkout-btn{
+                    background-color: #ffc107 !important;
+                }
+                .buy{
+                    background-color: #198754 !important;
+                }
+            }
+        }
+        .wishlist{
+            height: 130vh;
+            h1{
+                color: white;
+            }
+            .container{
+                table{
+                    background-color: rgb(0, 0, 0) !important;
+                    background: rgb(0, 0, 0) !important;
+                    color:rgb(255, 255, 255) !important;
+                    border-color:  rgb(155, 151, 151) !important; 
+                }
+            }
+        }
+        .checkout{
+            background:  linear-gradient(45deg,#86273a,#233489);
+            h4{
+                color: white;
+            }
+            form{
+                label{
+                    color: white;
+                    span{
+                        color: white !important;
+                    }
+                }
+            }
+        }
+        .store{
+            .category{
+                .cat-pro {
+                    h6{
+                        color: white;
+                    }
+                   
+                }
+                .list-group *{
+                    background-color: rgb(0, 0, 0) !important;
+                    background: rgb(0, 0, 0) !important;
+                    color:rgb(255, 255, 255) !important;
+                    border-color:  rgb(255, 253, 253) !important; 
+
+                }
+                .sort *{
+                    background-color: rgb(0, 0, 0) !important;
+                    background: rgb(0, 0, 0) !important;
+                    color:rgb(255, 255, 255) !important;
+                    border-color:  rgb(255, 253, 253) !important; 
+
+                }
+            }
+        }
+        .portfolio{
+            background-color: #d3cbb4;
+    
+        }
+        .get-konsept{
+            .date{
+                h3{
+                    color: white;
+                }
+                .for-konsept{
+                    p{
+                        color: white !important;
+                    }
+                }
+                .sosial-media {
+                    a{
+                    i{
+                        color: rgb(255, 255, 255) !important;
+                    }
+                    }
+                }
+                h4{
+                    color: white;
+                }
+            }
+            .right-side{
+                .sara-second-text{
+                    h5{
+                        color: white !important;
+                    }
+                }
+                h5{
+                    color: white !important;
+                }
+                .list-group *{
+                    background-color: rgb(0, 0, 0) !important;
+                    background: rgb(0, 0, 0) !important;
+                    color:rgb(255, 255, 255) !important;
+                    border-color:  rgb(255, 253, 253) !important; 
+
+                }
+                .follow-us{
+                    .sosial-media{
+                        a{
+                            i{
+                                color: white !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .post-card{
+            .card-body{
+                .card-name{
+                    color: white !important;
+                }
+                .btn-card{
+                    color: white;
+                }
+            }
+        }
+  
+    .adminpanel{
+        h3{
+            color: white;
+        }
+    }
+    .add{
+        h3{
+            color: white;
+        }
+    }
+    .edit{
+        h3{
+            color: white;
+        }
+        
+    }
+    .konseptform{
+        form{
+            label{
+                color: white ;
+            }
+        }
+    }
+    .details-page{
+        .detail-text{
+            .detail-title{
+                h1{
+                    color: white;
+                }
+                p{
+                    color: white;
+                    i{
+                        color: white !important;
+                    }
+                }
+                .detail-btn {
+                    button{
+                        color: white !important;
+                        border: 1px solid white !important;
+                    }
+                }
+            }
+        }
+    }
+    .buy{
+        p{
+            color: white;
+        }
+    }
+    .related-products{
+        h3{
+            color: white;
+        }
+    }
+}
+
+
+
+// --------------------------------------------------
+
+@media screen  and (max-width:655px) and (min-width:390px){
+    .sectwo{
+        height: 230vh !important;
+    }
+    .header-one{
+        .konsept {
+            width: 100%;
+            .search {
+                .fa-magnifying-glass {
+                    display: none;
+                }
+                form {
+                    display: none;
+                }
+            }
+            .logo {
+            width: 100%;
+            img{
+                transform: translateX(100px) !important;
+            }
+            }
+            .icons {
+                transform: translateX(-0px) !important;
+                .fa-user {
+                    display: none !important;
+    
+                }
+    
+                .fa-heart {
+                    display: none !important;
+    
+                }
+    
+    
+                .menu {
+                    display: flex !important;
+                    font-size: 25px !important;
+                }
+    
+                button {
+                    width: 40px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+    
+                .shop-btn {
+                    width: 40px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                }
+    
+    
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:471px) and (min-width:385px){
+    .secthree{
+        .nina-three{
+        display: none;
+        }
+    }
+    .header-one{
+        .konsept{
+            .logo{
+                transform: translateX(-110px) !important;
+            }
+            .icons{
+                transform: translateX(-10px) !important;
+            }
+        }
+    }   
+    .sectwo{
+        height: 250vh !important;
+    }
+}
+@media screen and (max-width:662px) and (min-width:662px){
+    .secthree{
+        .nina-three{
+        display: none;
+        }
+    }
+    .header-one{
+        .konsept{
+            .logo{
+                transform: translateX(-90px) !important;
+            }
+            .icons{
+                transform: translateX(30px) !important;
+            }
+        }
+    }   
+}
+
+@media screen and (max-width:385px) and (min-width:376px){
+    .secthree{
+        .nina-three{
+        display: none;
+        }
+    }
+    .header-one{
+        .konsept{
+            .logo{
+                transform: translateX(-10px) !important;
+                img{
+                    width: 120px;
+                }
+            }
+            .icons{
+                transform: translateX(-10px) !important;
+            }
+        }
+    }   
+}
+@media screen and (max-width:375px) and (min-width:373px){
+    .secthree{
+        .nina-three{
+        display: none;
+        }
+    }
+    .header-one{
+        .konsept{
+            .logo{
+                transform: translateX(-30px) !important;
+                img{
+                    width: 150px;
+                }
+            }
+            .icons{
+                transform: translateX(-10px) !important;
+            }
+        }
+    }   
+    .log-in{
+  
+        .container{
+         transform: translateY(0px) !important;
+         input{
+             width: 170px !important;
+ 
+         }
+        }
+  
+    }
+}
+@media screen and (max-width:373px) and (min-width:373px) {
+    .secthree{
+        .nina-three{
+        display: none;
+        }
+    }
+    .header-one{
+        .icons{
+            transform: translateX(-20px);
+        }
+    }
+    
+}
+@media screen and (max-width:540px) and (min-width:540px) {
+    .sectwo{
+        height: 300vh !important;
+    }
+    
+}
+@media screen and (max-width:393px) and (min-width:393px) {
+    .sectwo{
+        height: 260vh !important;
+    }
+    
+}
+@media screen and (max-width:768px) and (min-width:768px) {
+    .sectwo{
+        height: 310vh !important;
+    }
+    
+}
+
+@media screen and (max-width:820px) and (min-width:820px) {
+    .sectwo{
+        height: 270vh !important;
+    }
+    
+}
+
+@media screen and (max-width:372px) and (min-width:368px) {
+    .secthree{
+        .nina-three{
+        display: none;
+        }
+       
+    }
+    .header-one{
+        .icons{
+            transform: translateX(0px) !important;
+        }
+        .logo{
+            transform: translateX(0px) !important;
+            img{
+                width: 120px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:366px) and (min-width:305px) {
+    .secthree{
+        .nina-three{
+        display: none;
+        }
+        .nina-four{
+            display: none;
+        }
+    }
+    .header-one{
+        .icons{
+            transform: translateX(0px) !important;
+        }
+        .logo{
+            transform: translateX(0px) !important;
+            img{
+                width: 100px;
+            }
+        }
+    }
+    .sectwo{
+        height: 900vh !important;
+    }
+    
+}
+@media screen and (max-width:360px) and (min-width:280px){
+    .port{
+        .portfolio-card{
+            img{
+                width: 260px !important; 
+            }
+           
+        }
+    }
+    .portfolio{
+        .sort{
+            ul{
+                li{
+                    font-size: 12px !important;
+                }
+            }
+        }
+        .port-card{
+            display: flex; 
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    .log-in{
+  
+       .container{
+        transform: translateY(0px) !important;
+        input{
+            width: 170px !important;
+
+        }
+       }
+ 
+   }
+
+
+}
+@media screen and (max-width:360px) and (min-width:360px){
+    .port{
+        .portfolio-card{
+            img{
+                width: 335px !important; 
+            }
+           
+        }
+    }
+    .portfolio{
+        .sort{
+            ul{
+                li{
+                    font-size: 12px !important;
+                }
+            }
+        }
+        .port-card{
+            display: flex; 
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+  
+}
+@media screen and (max-width:305px) and (min-width:299px) {
+    .secthree{
+        .nina-three{
+        display: none;
+        }
+        .nina-four{
+            display: none;
+        }
+    }
+    .header-one{
+        .icons{
+            transform: translateX(-10px) !important;
+        }
+        .logo{
+            transform: translateX(-10px) !important;
+            img{
+                width: 90px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:292px) and (min-width:292px) {
+    .secthree{
+        .nina-three{
+        display: none;
+        }
+    }
+    .header-one{
+        .icons{
+            transform: translateX(-10px) !important;
+        }
+        .logo{
+            transform: translateX(-10px) !important;
+            img{
+                width: 80px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:298px) and (min-width:290px) {
+    .secthree{
+        .nina-three{
+        display: none;
+        }
+        .nina-four{
+            display: none;
+            }
+    }
+    .header-one{
+        .icons{
+            transform: translateX(-10px) !important;
+        }
+        .logo{
+            transform: translateX(-10px) !important;
+            img{
+                width: 80px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:289px) and (min-width:279px){
+    .secthree{
+        .nina-three{
+        display: none;
+        }
+        .nina-four{
+            display: none !important;
+        }
+    }
+    .header-one{
+        .icons{
+            transform: translateX(-10px) !important;
+        }
+        .logo{
+            transform: translateX(-10px) !important;
+            img{
+                width: 80px;
+            }
+        }
+    }
+    
+}
+
+// ---------------------------------------------------------
+@media screen and (max-width:390px) and (min-width:360px){
+    .sectwo{
+        height: 255vh !important;
+    }
+    
+}
+@media screen and (max-width:375px) and (min-width:375px){
+    .sectwo{
+        height: 325vh !important;
+    }
+    
+}
+@media screen and (max-width:768px) and (min-width:760px){
+    .header-one{
+            .logo{
+                transform: translateX(-30px) !important;
+        }
+        .icons{
+            transform: translateX(20px);
+         .btn-login{
+            width: 70px;
+         }
+        }
+    }
+    
+}
+@media screen  and (max-width:709px)and (min-width:561px) {
+    .visa {
+        .list-unstyled {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transform: translateX(-110px) !important;
+        }
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-one{
+        .konsept{
+            .logo{
+                transform: translateX(-50px) !important;
+            }
+            .icons{
+                transform: translateX(30px);
+            }
+        }
+    }
+    .sectwo{
+        height: 230vh !important;
+    }
+
+    
+}
+@media screen and (max-width:793px) and (min-width:768px){
+    .header-one{
+        .konsept{
+            .logo{
+                transform: translateX(-40px) !important;
+            }
+            .icons{
+           transform: translateX(15px);
+            }
+        }
+    }
+}
+@media screen and (max-width:800px) and (min-width:793px){
+    .header-one{
+        .konsept{
+            .logo{
+                transform: translateX(-40px) !important;
+            }
+            .icons{
+           transform: translateX(15px);
+            }
+        }
+    }
+}
+@media screen and (max-width:815px) and (min-width:800px){
+    .header-one{
+        .konsept{
+            .logo{
+                transform: translateX(-40px) !important;
+            }
+            .icons{
+           transform: translateX(15px);
+            }
+        }
+    }
+}
+@media screen and (max-width:833px) and (min-width:815px){
+    .header-one{
+        .konsept{
+            .logo{
+                transform: translateX(-40px) !important;
+            }
+            .icons{
+           transform: translateX(15px);
+            }
+        }
+    }
+    .swctwo{
+        height: 380vh !important;
+    }
+}
+
+// -----------------------------------------------
+
+@media screen and (max-width:760px) {
+.header-one{
+    header {
+        opacity: 0 !important;
+        position: absolute !important;
+    }
+    .konsept {
+        width: 100%;
+        .search {
+            .fa-magnifying-glass {
+                display: none;
+            }
+            form {
+                display: none;
+            }
+        }
+        .logo {
+            transform: translateX(-100px);
+            width: 100%;
+        }
+        .icons {
+            transform: translateX(80px);
+            .fa-user {
+                display: none !important;
+
+            }
+
+            .fa-heart {
+                display: none !important;
+
+            }
+           button{
+            display: none !important;
+           }
+
+
+            .menu {
+                display: flex !important;
+                font-size: 25px !important;
+            }
+
+            button {
+                width: 40px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .shop-btn {
+                width: 40px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 4px;
+
+            }
+            .log-out{
+                width: 40px;
+                height: 30px;
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+               font-size: 11px;
+            }
+            .btn-login{
+                width: 70px !important;
+            }
+
+
+        }
+    }
+
+    .menu-bar {
+        .open {
+            .heart-icon {
+                .bar-heart {
+                    display: block;
+                    margin: 0.7rem 0.5rem;
+                }
+            }
+
+            .user-icon {
+                .bar-user {
+                    display: block;
+                    margin: 0.7rem 0.5rem;
+                }
+            }
+
+            .search-icon {
+                .bar-search {
+                    display: block;
+                    width: 100%;
+                }
+            }
+            .bar-mood{
+                .mood-icon{
+                    display: inline;
+                }
+            }
+            .bar-lang{
+                .lang-icon{
+                    display: inline;
+                }
+            }
+
+        }
+
+    }
+}
+
+    ul {
+        display: none;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+
+        li {
+
+            width: 100%;
+            text-align: center;
+
+            a {
+                margin: 0.7rem 0.5rem;
+            }
+
+        }
+    }
+
+    .open {
+        display: flex;
+        text-align: center;
+    }
+  .second-header{
+    .collapse{
+        .open{
+            li{
+                form{
+                    display: block;
+                }
+            }
+        }
+        .icons{
+           transform: translateX(130px);
+          
+            button{
+                margin: 5px;
+            } 
+        }
+    }
+
+}
+
+
+    .cards {
+        .konsept-card {
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            display: none;
+        }
+        .slider-card{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .col {
+        .card {
+            width: auto;
+        }
+
+    }
+
+    .visa {
+        .list-unstyled {
+            display: flex;
+            flex-direction: row;
+            width: 20px;
+
+
+        }
+    }
+
+    .secone {
+        .carousel {
+            .carousel-item {
+                .home {
+
+                    p {
+                        font-size: 40px !important;
+                    }
+
+                    h1 {
+                        font-size: 40px !important;
+                    }
+
+                    .button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                    }
+                }
+            }
+
+        }
+    }
+
+    .col {
+        .add-cart {
+            position: absolute;
+            top: 250px;
+            left: 150px;
+
+        }
+    }
+
+    .sectwo {
+        height: 250vh;
+
+        .sec-two {
+            display: block;
+
+
+            .mySwiper {
+                width: 100%;
+            }
+
+            .mySwiper-two {
+                width: 100%;
+                margin-top: 20px;
+
+            }
+
+            .ceramics-blog {
+                width: 100%;
+                height: 300px;
+                background-position: center;
+                background-size: cover;
+                margin-top: 10px;
+                transform: translateY(15px);
+                .ceramic-text{
+                    .sale {
+                        transform: translateY(120px) !important;
+                        font-family: cursive;
+                        font-size: 30px;
+
+                    }
+                }
+            }
+
+            .ceramics-blog-two {
+                width: 100%;
+                height: 300px;
+                background-position: center;
+                background-size: cover;
+                transform: translateY(-6px);
+                .ceramic-text{
+                    .sale {
+                        transform: translateY(120px) !important;
+                        font-family: cursive;
+                        font-size: 30px;
+
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .clients {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .secfour {
+        width: 100%;
+        height: 190px !important;
+        background-position: center;
+        background-size: cover;
+
+        .play {
+            width: 100px !important;
+            height: 100px !important;
+
+        }
+
+    }
+
+    .ourteam {
+        .card-one {
+            display: flex;
+            flex-direction: column;
+
+            .card-two {
+                align-items: center !important;
+                display: flex;
+                flex-direction: column;
+
+                .card-three {
+                    align-items: center !important;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                }
+            }
+        }
+    }
+
+    .pricing-plans {
+        .pricing {
+            display: flex;
+            flex-direction: column;
+
+            .basic {
+                margin: 15px;
+
+                .buy-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    button {
+                        width: 150px;
+                    }
+                }
+
+            }
+
+            .premium {
+                margin: 15px;
+
+                .buy-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    button {
+                        width: 150px;
+                    }
+                }
+
+            }
+
+            .business {
+                margin: 15px;
+
+                .buy-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    button {
+                        width: 150px;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .store {
+        .category {
+            display: flex;
+            flex-direction: column;
+
+            .store-card {
+                .cat-card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+
+
+                }
+            }
+        }
+    }
+
+    .aboutme {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        max-height: none;
+        background-color: rgb(236, 241, 244);
+
+        .nina {
+            display: flex;
+            flex-direction: column;
+
+
+            .text-me {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .text-name {
+                    text-align: center;
+
+                    h3 {
+                        font-family: cursive;
+                    }
+
+                    h1 {
+                        font-family: Open Sans;
+
+                    }
+
+                    .lead {
+                        display: none;
+                    }
+
+                }
+
+            }
+
+            .photo-me {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .nina-one {
+                    display: none;
+                }
+
+                .nina-two {
+                    width: 150px;
+                    height: 207px;
+                    transform: translateY(60px);
+                }
+
+                .nina-three {
+                    width: 130px;
+                    height: 130px;
+                    transform: translateY(150px) translateX(-90px);
+                }
+
+                .nina-four {
+                    width: 186px;
+                    height: 238px;
+                    position: relative;
+                    top: 80px;
+                    right: 20px;
+
+                }
+
+                .nina-five {
+                    width: 185px;
+                    height: 254px;
+                    transform: translateX(-230px) translateY(-110px);
+                    position: absolute;
+                }
+
+            }
+        }
+    }
+
+    .details-page {
+        .read-more {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .detail-text {
+                width: 100%;
+
+                .detail-title {
+                    padding-bottom: 6rem;
+
+                    h1 {
+                        color: #1D1D1D;
+                        font-family: Josefin Sans;
+                    }
+
+                    .detail-price {
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    }
+
+                    .detail-star {
+                        i {
+                            font-size: 18px;
+                            letter-spacing: .5em;
+                            color: #3d3b3b;
+
+                        }
+                    }
+
+                    .detail-des {
+                        font-family: 'Courier New', Courier, monospace;
+                        color: #9b9999;
+                        font-size: 18px;
+                    }
+
+                    .detail-btn {
+                        button {
+                            border-radius: 0px;
+
+                            a {
+                                text-decoration: none;
+                                color: #1D1D1D;
+                                font-family: initial;
+                            }
+                        }
+
+                    }
+
+                    .detail-type {
+                        font-family: Josefin Sans;
+                        font-size: 15px;
+
+                        span {
+                            font-family: cursive;
+
+                        }
+                    }
+                }
+            }
+
+            .detail-image {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+
+                .detail-image-one {
+                    width: 400px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center !important;
+                    justify-content: space-between !important;
+
+                    .detail-img {
+                        width: 190px;
+                        height: 236px;
+                        img {
+                            width: 190px;
+                            height: 236px;
+
+                        }
+                    }
+                }
+            }
+
+            .detail-image-two {
+                img {
+                    width: 400px !important;
+                    height: 600px !important;
+                    margin-top: 6px;
+
+                }
+            }
+        }
+        .related-products{
+            .related-pro-card {
+                display: flex;
+                flex-direction: column;
+
+            }
+
+        }
+
+    }
+    .card-carousel{
+        .card-img-top{
+            width: 350px;
+        }
+        .card-body-carousel{
+            width: 330px;
+
+        }
+    }
+
+    .secthree {
+        width: 100%;
+        height: 100%;
+        max-height: none;
+        background-color: #9DB97B;
+
+        .inspiration {
+            display: flex;
+            flex-direction: column;
+
+
+            .text-me {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .text-name {
+                    text-align: center;
+
+                    h3 {
+                        font-family: cursive;
+                    }
+
+                    h1 {
+                        font-family: Open Sans;
+
+                    }
+
+                    .lead {
+                        display: none;
+                    }
+                }
+            }
+
+            .photo-me {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .nina-one {
+                    display: none;
+                }
+
+                .nina-two {
+                    width: 150px;
+                    height: 207px;
+                    transform: translateY(60px);
+                }
+
+                .nina-three {
+                    width: 130px;
+                    height: 130px;
+                    transform: translateY(150px) translateX(-90px);
+                }
+
+                .nina-four {
+                    width: 186px;
+                    height: 238px;
+                    position: relative;
+                    top: 80px;
+                    right: 20px;
+        
+                }
+
+                .nina-five {
+                    width: 185px;
+                    height: 254px;
+                    transform: translateX(-230px) translateY(-110px);
+                    position: absolute;
+                }
+
+            }
+        }
+    }
+
+    .fagpage {
+        width: 100%;
+        background-image: url("https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/Faq.jpg");
+        background-position: center !important;
+        background-size: cover !important;
+        height: 300px;
+
+        .save-fag {
+            display: flex;
+            flex-direction: column;
+
+            ul {
+                li {
+                    text-align: start;
+                }
+            }
+
+            .customer-service {
+                ul {
+                    li {
+                        text-align: start;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .footer {
+        footer {
+            .footer-page {
+                ul {
+                    li {
+                        text-align: start;
+                    }
+                }
+            }
+        }
+    }
+
+    .getintouch {
+        .contact {
+            display: flex;
+            flex-direction: column;
+
+            .question {
+                width: 100%;
+
+                .office {
+                    ul {
+                        li {
+                            text-align: start;
+                        }
+                    }
+                }
+            }
+
+            .send-question {
+                width: 100px !important;
+                align-items: start;
+
+                form {
+                    input {
+                        width: 176px;
+                        height: 38px;
+                        border-radius: 0px;
+                    }
+
+                    .comment {
+                        textarea {
+                            width: 367px;
+                            height: 240px;
+                            border-radius: 0px;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    table {
+        thead {
+            th {
+                font-weight: 500;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+        }
+
+        tbody {
+            td {
+                .item-name {
+                    width: 50px;
+                    height: 70px;
+                    font-size: 13px;
+
+                }
+
+                img {
+                    width: 50px;
+                }
+            }
+
+            th {
+                .remove {
+                    height: 70px;
+
+                }
+            }
+        }
+    }
+
+    .get-konsept {
+        height: 1217vh;
+
+        .about-konsept {
+            display: flex;
+            flex-direction: column;
+
+            .get-swiper {
+                height: 620.95px;
+
+                .swiper {
+                    width: 100%;
+                }
+
+                .date {
+
+                    .design {
+                        display: flex;
+                        flex-direction: column;
+
+                        .design-photo {
+                            transition: 1s;
+                            margin: 5px;
+                            width: 100%;
+
+                            &:hover {
+                                transform: scale(1.01);
+                            }
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .sara {
+                        width: 100%;
+                        height: 509px;
+                        background-color: #f7f5f5;
+                        background-image: url('https://konsept.qodeinteractive.com/wp-content/plugins/konsept-core/assets/img/author-bg.png');
+
+                        .about-sara {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .sara-text {
+                            margin-top: 10px;
+                        }
+                    }
+
+                    .related-cards {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                    }
+                }
+            }
+
+            .right-side {
+                margin-left: 0px;
+            }
+        }
+    }
+
+    .post-card {
+        width: 370px;
+
+        .swiper {
+            height: 351px;
+        }
+    }
+
+    .shopnow {
+        .shop {
+            .shopnow-one {
+                .shop-text {
+                    width: 50% !important;
+
+                    h1 {
+                        font-size: 40px;
+                    }
+                }
+                .shop-photo-one {
+                    width: 50%;
+
+                    img:nth-child(1) {
+                        transform: translateY(-190px);
+                        height: 265px;
+                    }
+
+                    img:nth-child(2) {
+                        height: 365px;
+                        transform: translateY(-140px);
+
+                    }
+                }
+            }
+            .shopnow-two {
+                .shop-text {
+                    width: 50% !important;
+
+                    h1 {
+                        font-size: 40px;
+                    }
+                }
+                .shop-photo-two {
+                    img {
+                        height: 450px;
+                        transform: translateY(150px);
+                    }
+                }
+            }
+            .shopnow-three {
+                .shop-text {
+                    width: 50% !important;
+
+                    h1 {
+                        font-size: 40px;
+                    }
+                }
+                .shop-photo-three {
+                    img {
+                        height: 450px;
+                        transform: translateY(120px);
+                    }
+                }
+            }
+        }
+    }
+.portfolio{
+    width: 100%;
+    .sort{
+        ul{
+            display: flex;
+           flex-direction: row;
+        }
+    }
+}
+.port{
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+   
+    .portfolio-card{
+        img{
+            width: 365px;
+        }
+    }
+}
+.visa {
+    .list-unstyled {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transform: translateX(-110px) !important;
+    }
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+}
+@media screen  and (max-width:912px) and (min-width:833px){
+    .header-one{
+   .konsept{
+    .logo{
+        transform: translateX(-100px) !important;
+    }
+    .icons{
+        transform: translateX(70px);
+    }
+   }
+    }
+    
+}
+@media screen and (max-width:280px){
+    .secthree{
+        .nina-three{
+            display: none;
+        }
+        .nina-four{
+            display: none;
+        }
+    }
+    .sectwo{
+        height: 350vh !important;
+    }
+    .header-one{
+        .konsept{
+            .logo{
+                img{
+                    width: 90px !important;
+                }
+            }
+            .icons{
+                transform: translateX(4px);
+            }
+        }
+    }
+    .log-in{
+        height: 125vh;
+  
+       
+  
+    }
+    
+}
+
+@media screen and (max-width:1024px) and (min-width:912px){
+    .header-one{
+        .konsept{
+            .logo{
+                transform: translateX(-40px) !important;
+            }
+            .icons{
+                transform: translateX(25px) !important;
+            }
+        }
+    }
+    .sectwo{
+        height: 550vh !important;
+    }
+    .log-in{
+  
+        .container{
+         transform: translateY(0px) !important;
+      
+        }
+  
+    }
+}
+@media screen and (max-width:912px) and (min-width:912px){
+    .header-one{
+        .konsept{
+            .logo{
+                transform: translateX(-40px) !important;
+            }
+            .icons{
+                transform: translateX(25px) !important;
+            }
+        }
+    }
+    .sectwo{
+        height: 250vh !important;
+    }
+    .log-in{
+  
+        .container{
+         transform: translateY(0px) !important;
+      
+        }
+  
+    }
+}
+@media screen and (max-width:1280px) and (min-width:1025px) {
+    .header-one{
+        .konsept{
+            .logo{
+                transform: translateX(-70px) !important;
+            }
+            .icons{
+                transform: translateX(45px) !important;
+            }
+        }
+    }
+    .sectwo{
+        height: 400vh !important;
+    }
+}
+// ----------------------------------------------------
+@media screen and (max-width:1368px) and (min-width:760px) {
+
+    header {
+        opacity: 0 !important;
+        position: absolute !important;
+    }
+
+    .konsept {
+        width: 100%;
+
+        .search {
+
+            .fa-magnifying-glass {
+                display: none;
+
+            }
+
+            form {
+                display: none;
+
+
+            }
+
+
+
+        }
+
+        .logo {
+            transform: translateX(-25px);
+            width: 100%;
+        }
+
+        .icons {
+            .fa-user {
+                display: none !important;
+
+            }
+
+            .fa-heart {
+                display: none !important;
+
+            }
+
+
+            .menu {
+                display: block !important;
+                margin: 4px;
+
+                font-size: 25px;
+            }
+
+            .shop-btn {
+                margin-right: 4px;
+
+            }
+
+
+        }
+    }
+
+    .menu-bar {
+        .open {
+            .heart-icon {
+                .bar-heart {
+                    display: block;
+                    margin: 0.7rem 0.5rem;
+                }
+            }
+
+            .user-icon {
+                .bar-user {
+                    display: block;
+                    margin: 0.7rem 0.5rem;
+                }
+            }
+
+            .search-icon {
+                .bar-search {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+
+
+    }
+
+    ul {
+        display: none;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+
+        li {
+
+            width: 100%;
+            text-align: center;
+
+            a {
+                margin: 0.7rem 0.5rem;
+            }
+
+        }
+    }
+
+    .open {
+        display: flex;
+        text-align: center;
+    }
+
+
+
+    .cards {
+        .konsept-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+    }
+
+    .col {
+        .card {
+            width: auto;
+
+        }
+
+    }
+
+    .visa {
+        .list-unstyled {
+            display: flex;
+            flex-direction: row;
+            width: 20px;
+
+        }
+    }
+
+    .secone {
+        .carousel {
+            .carousel-item {
+                .home {
+
+                    p {
+                        font-size: 40px !important;
+                    }
+
+                    h1 {
+                        font-size: 40px !important;
+                    }
+
+                    .button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                    }
+                }
+            }
+
+        }
+    }
+
+    .col {
+        .add-cart {
+            position: absolute;
+            top: 250px;
+            left: 150px;
+
+        }
+    }
+
+    .sectwo {
+        height: 230vh;
+
+        .sec-two {
+            display: block;
+
+            .mySwiper {
+                width: 100%;
+                height: 1030px;
+
+
+            }
+
+            .mySwiper-two {
+                width: 100%;
+                height: 1030px;
+                margin-top: 20px;
+
+            }
+
+            .ceramics-blog {
+                width: 100%;
+                height: 472px;
+                background-position: center;
+                background-size: cover;
+                transform: translateY(25px);
+
+            }
+
+            .ceramics-blog-two {
+                width: 100%;
+                height: 472px;
+                background-position: center;
+                background-size: cover;
+
+            }
+
+        }
+    }
+
+    .clients {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .secfour {
+        width: 100%;
+        height: 190px !important;
+        background-position: center;
+        background-size: cover;
+
+        .play {
+            width: 100px !important;
+            height: 100px !important;
+
+        }
+
+    }
+
+    // .ourteam {
+    //     .team-bg{
+    //         width: 100%;
+    //         .card-one {
+    //             width: 100%;
+    //             .card-two {
+    //                 width: 100%;
+    //                 .card-three {
+    //                     width: 100%;
+    //                     display: flex;
+    //                     flex-direction: column;
+    //                     align-items: center;
+    
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    // .team-card {
+    //     img{
+    //         width: 400px !important;
+       
+    //     }
+    // }
+
+    .pricing-plans {
+        .pricing {
+            display: flex;
+            flex-direction: column;
+
+            .basic {
+                margin: 15px;
+
+                .buy-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    button {
+                        width: 150px;
+                    }
+                }
+
+            }
+
+            .premium {
+                margin: 15px;
+
+                .buy-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    button {
+                        width: 150px;
+                    }
+                }
+
+            }
+
+            .business {
+                margin: 15px;
+
+                .buy-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    button {
+                        width: 150px;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .store {
+        .category {
+            display: flex;
+            flex-direction: column;
+
+            .store-card {
+                .cat-card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                }
+            }
+        }
+    }
+
+    .aboutme {
+        width: 100%;
+        height: 100%;
+        max-height: none;
+        background-color: rgb(236, 241, 244);
+
+        .nina {
+            display: flex;
+            flex-direction: column;
+
+            .text-me {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .text-name {
+                    text-align: center;
+
+                    h3 {
+                        font-family: cursive;
+                    }
+
+                    h1 {
+                        font-family: Open Sans;
+
+                    }
+
+                    .lead {
+                        display: none;
+                    }
+                }
+            }
+
+            .photo-me {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .nina-one {
+                    display: none;
+                }
+
+                .nina-two {
+                    width: 150px;
+                    height: 207px;
+                    transform: translateY(60px);
+                }
+
+                .nina-three {
+                    width: 130px;
+                    height: 130px;
+                    transform: translateY(150px) translateX(-90px);
+
+
+                }
+
+                .nina-four {
+                    width: 186px;
+                    height: 238px;
+                    position: relative;
+                    top: 80px;
+                    right: 20px;
+
+
+                }
+
+                .nina-five {
+                    width: 185px;
+                    height: 254px;
+                    transform: translateX(-190px) translateY(-110px);
+                    position: absolute;
+                }
+
+            }
+        }
+    }
+
+    .details-page {
+        .read-more {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .detail-text {
+                width: 100%;
+
+                .detail-title {
+                    padding-bottom: 6rem;
+
+                    h1 {
+                        color: #1D1D1D;
+                        font-family: Josefin Sans;
+                    }
+
+                    .detail-price {
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    }
+
+                    .detail-star {
+                        i {
+                            font-size: 18px;
+                            letter-spacing: .5em;
+                            color: #3d3b3b;
+
+                        }
+                    }
+
+                    .detail-des {
+                        font-family: 'Courier New', Courier, monospace;
+                        color: #9b9999;
+                        font-size: 18px;
+                    }
+
+                    .detail-btn {
+                        button {
+                            border-radius: 0px;
+
+                            a {
+                                text-decoration: none;
+                                color: #1D1D1D;
+                                font-family: initial;
+
+                            }
+                        }
+                    }
+
+                    .detail-type {
+                        font-family: Josefin Sans;
+                        font-size: 15px;
+
+                        span {
+                            font-family: cursive;
+
+                        }
+                    }
+
+
+                }
+
+            }
+
+            .detail-image {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+
+                .detail-image-one {
+                    width: 400px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center !important;
+                    justify-content: space-between !important;
+
+                    .detail-img {
+                        width: 190px;
+                        height: 236px;
+
+
+                        img {
+                            width: 190px;
+                            height: 236px;
+                        }
+                    }
+                }
+            }
+
+            .detail-image-two {
+                img {
+                    width: 400px !important;
+                    height: 600px !important;
+                    margin-top: 6px;
+
+
+                }
+            }
+
+
+
+        }
+    }
+
+    .secthree {
+        width: 100%;
+        height: 100%;
+        max-height: none;
+        background-color: #9DB97B;
+
+        .inspiration {
+            display: flex;
+            flex-direction: column;
+
+
+            .text-me {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .text-name {
+                    text-align: center;
+
+                    h3 {
+                        font-family: cursive;
+                    }
+
+                    h1 {
+                        font-family: Open Sans;
+
+                    }
+
+                    .lead {
+                        display: none;
+                    }
+
+
+                }
+
+
+            }
+
+            .photo-me {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .nina-one {
+                    display: none;
+                }
+
+                .nina-two {
+                    width: 150px;
+                    height: 207px;
+                    transform: translateY(60px);
+                }
+
+                .nina-three {
+                    width: 130px;
+                    height: 130px;
+                    transform: translateY(150px) translateX(-90px);
+
+
+                }
+
+                .nina-four {
+                    width: 186px;
+                    height: 238px;
+                    position: relative;
+                    top: 80px;
+                    right: 20px;
+
+
+                }
+
+                .nina-five {
+                    width: 185px;
+                    height: 254px;
+                    transform: translateX(-190px) translateY(-110px);
+                    position: absolute;
+                }
+
+            }
+        }
+    }
+
+    .fagpage {
+        width: 100%;
+        background-image: url("https://konsept.qodeinteractive.com/wp-content/uploads/2020/04/Faq.jpg");
+        background-position: center !important;
+        background-size: cover !important;
+        height: 300px;
+
+        .save-fag {
+            display: flex;
+            flex-direction: column;
+
+            ul {
+                li {
+                    text-align: start;
+                }
+            }
+
+            .customer-service {
+                ul {
+                    li {
+                        text-align: start;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .footer {
+        footer {
+            .footer-page {
+                width: 50% !important;
+
+                ul {
+                    li {
+                        text-align: start;
+
+                    }
+                }
+
+            }
+
+        }
+
+    }
+
+    .visa {
+        .list-unstyled {
+            width: 50%;
+        }
+
+    }
+
+    .getintouch {
+        .contact {
+            display: flex;
+            flex-direction: column;
+
+            .question {
+                width: 100%;
+
+                .office {
+                    ul {
+                        li {
+                            text-align: start;
+                        }
+                    }
+                }
+            }
+
+            .send-question {
+                width: 100px !important;
+                align-items: start;
+
+                form {
+                    input {
+                        width: 230px;
+                        height: 48px;
+                        border-radius: 0px;
+                    }
+
+                    .comment {
+                        textarea {
+                            width: 475px;
+                            height: 240px;
+                            border-radius: 0px;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    table {
+        thead {
+            th {
+                font-weight: 500;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+
+        tbody {
+            td {
+                .item-name {
+                    width: 50px;
+                    height: 70px;
+                    font-size: 13px;
+                }
+
+                img {
+                    width: 50px;
+                }
+            }
+
+            th {
+                .remove {
+                    height: 70px;
+
+                }
+            }
+
+        }
+    }
+    .card-carousel{
+     
+        .card-img-top{
+            width: 666px !important;
+        }
+        .card-body-carousel{
+            width: 330px;
+        }
+    }
+    .portfolio{
+        width: 100%;
+        .sort{
+            ul{
+                display: flex;
+               flex-direction: row;
+            }
+        }
+        .port-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .port{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        .portfolio-card{
+            img{
+                width: 505px;
+            }
+        }
+    }
+  .get-konsept{
+    .get-swiper{
+        .date{
+            .design{
+                width: 70% !important;
+                .design-photo{
+                    img{
+                        width: 160px;
+                        margin: 5px;
+                    }
+                }
+            }
+
+        }   
+  }
+  .right-side{
+    width: 250px !important;
+    .right-sara-photo{
+        width: 250px !important;
+    }
+    .second-photo{
+  img{
+    width: 250px !important;
+    
+  }
+
+    }
+
+}
+    }
+    .post-card {
+        width: 175px;
+        .mySwiper {
+            height: 151px;
+            img{
+                height: 100px;
+                margin: 5px !important;
+            }
+        }
+        .card-body {
+            margin: 5px;
+            p{
+                font-size: 15px !important;
+            }
+         
+        }
+    }  
+    .ourteam {
+        .card-one {
+            display: flex;
+            flex-direction: column;
+
+            .card-two {
+                align-items: center !important;
+                display: flex;
+                flex-direction: column;
+
+                .card-three {
+                    align-items: center !important;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                }
+            }
+        }
+    }
+    .team-cards{
+        width: 100% !important;
+    }
+}
